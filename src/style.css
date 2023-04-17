@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "LDF-ComicSsans";
+  src: url(/src/images/LDF-ComicSans/LDFComicSans.ttf);
+}
+body{
+  background-image: url(/src/images/meraxes-credit-carlos-papolio_web.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "LDF-ComicSsans";
+}
+.title{    
+  margin: auto;
+  background-color: rgb(47, 43, 66);
+  width: 700px;
+  text-align: center;
+}
+.title h1{
+  font-size: 5rem;
+  margin-bottom: 0rem;
+}
+.title h2{
+  margin-top: 0rem;
+  font-size: 2.5rem;
+}
+.title h2 span{
+font-family: 'Times New Roman', Times, serif;
+}
+.article-wrapper{
+  background-color: white;
+  border-radius: 2rem;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin-bottom: .5rem;
+  transition: 2s;
+}
+.article-wrapper:hover{
+  background-color: rgb(237, 243, 248);
+}
+.article-wrapper img {
+overflow: hidden;
+height: 90%;
+width: 90%;
+margin: auto;
+}
+.article-wrapper div h1{
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 2rem;
+}
+.article-wrapper div h2 span{
+  text-align: center;
+font-weight: normal;
+font-style: italic;
+}
+.article-wrapper div p{
+  font-size: 1.2rem;
+  
+}

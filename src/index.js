@@ -6,8 +6,6 @@ import Article from "./Components/Articles";
 import Opinion from "./Components/Opinion";
 import Advertisement from "./Components/ad";
 
-
-
 import pic1 from "./images/A091-funerals-death-care-sustainability-scaled.jpg";
 import pic2 from "./images/hey-vsauce-michael-fab562e778.jpg";
 import pic3 from "./images/Trex.jpg";
@@ -50,19 +48,19 @@ root.render(
       <div className="opinion-articles">
         <div>
           <Opinion author="Horge" title="The climate is overrated" />
-        <Opinion author="Mister White" title="Should drugs be legalized?" />
-        <Opinion
-          author="Gru"
-          title="Why privatization of the moon will cure cancer"
-        />
-        <Opinion
-          author="Crouton"
-          title="Joe Climate is a criminal and should be deplatformed"
-        />
-        
+          <Opinion author="Mister White" title="Should drugs be legalized?" />
+          <Opinion
+            author="Gru"
+            title="Why privatization of the moon will cure cancer"
+          />
+          <Opinion
+            author="Crouton"
+            title="Joe Climate is a criminal and should be deplatformed"
+          />
         </div>
-        <Advertisement />
+        
       </div>
+      <Advertisement />
     </div>
   </>
 );

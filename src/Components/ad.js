@@ -1,9 +1,7 @@
-import '../style.css'
-import ad from '../images/LDF-ComicSans/comic sans.png'
+import "../style.css";
 
-export default function Advertisement(){
-<div>
-    <img src={ad} alt='advert'></img>
-    <p>asadasd</p>
-</div>
+export default function Advertisement() {
+  return(<div className="Ad">
+    <p>|<span>X</span>| |<span>O</span>| |<span>?</span>|</p>
+  </div>);
 }

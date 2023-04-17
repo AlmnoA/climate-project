@@ -2,88 +2,107 @@
   font-family: "LDF-ComicSsans";
   src: url(/src/images/LDF-ComicSans/LDFComicSans.ttf);
 }
-body{
+body {
   background-image: url(/src/images/meraxes-credit-carlos-papolio_web.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "LDF-ComicSsans";
 }
-.title{    
+.title {
   margin: auto;
   background-color: rgb(47, 43, 66);
   width: 700px;
   text-align: center;
 }
-.title h1{
+.title h1 {
   font-size: 5rem;
   margin-bottom: 0rem;
 }
-.title h2{
+.title h2 {
   margin-top: 0rem;
   font-size: 2.5rem;
 }
-.title h2 span{
-font-family: 'Times New Roman', Times, serif;
+.title h2 span {
+  font-family: "Times New Roman", Times, serif;
 }
 
-.article-wrapper{
+.article-wrapper {
   background-color: white;
-  background-image: url('./images/grunge-vintage-old-paper-background_1373-431.jpeg');
+  background-image: url("./images/grunge-vintage-old-paper-background_1373-431.jpeg");
   border-radius: 2rem;
   width: 100%;
   display: grid;
   grid-template-columns: 3fr 2fr;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   transition: 2s;
 }
-.article-wrapper:hover{
+.article-wrapper:hover {
   background-color: rgb(237, 243, 248);
 }
 .article-wrapper img {
-overflow: hidden;
-height: 90%;
-width: 90%;
-margin: auto;
+  overflow: hidden;
+  height: 90%;
+  width: 90%;
+  margin: auto;
 }
-.article-wrapper div h1{
+.article-wrapper div h1 {
   text-align: center;
   font-size: 2rem;
   border-radius: 2rem;
 }
-.article-wrapper div h2 span{
+.article-wrapper div h2 span {
   text-align: center;
-font-weight: normal;
-font-style: italic;
+  font-weight: normal;
+  font-style: italic;
 }
-.article-wrapper div p{
+.article-wrapper div p {
   font-size: 1.2rem;
-  
 }
-.main-grid{
+.main-grid {
   display: grid;
   grid-template-columns: 2.5fr 1fr;
   background-color: white;
   border-radius: 3rem;
 }
-.opinion-article{
+.opinion-article {
   background-color: antiquewhite;
   border-radius: 1rem;
   padding-left: 1rem;
-  padding-right: .7rem;
+  padding-right: 0.7rem;
   width: 100%;
   height: 80px;
-margin-left: .25rem;
+  margin-left: 0.25rem;
 }
-.opinion-article h1{
+.opinion-article h1 {
   font-size: 25px;
   margin-bottom: 0rem;
   text-align: center;
-
 }
-.opinion-article h2{
+.opinion-article h2 {
   font-size: 20px;
   text-align: right;
   margin-top: 0rem;
-font-weight: normal;
-font-style: italic;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.Ad{
+background-image: url('./images/LDF-ComicSans/comic\ sans.png');
+background-repeat: no-repeat; 
+background-size: cover; 
+height: 170px;
+width: 300px;
+overflow:hidden;
+margin: auto;
+margin-top: 1rem;
+}
+.Ad p{
+  text-align: right;
+text-decoration-line: underline overline;
+margin-right: 2px;
+margin-top: 5px;
+}
+.Ad p span{
+  background-color: white;
+
 }

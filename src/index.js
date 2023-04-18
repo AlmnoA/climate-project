@@ -7,8 +7,9 @@ import Opinion from "./Components/Opinion";
 import Advertisement from "./Components/ad";
 
 import pic1 from "./images/A091-funerals-death-care-sustainability-scaled.jpg";
-import pic2 from "./images/hey-vsauce-michael-fab562e778.jpg";
+import pic2 from "./images/kaboom.jpg";
 import pic3 from "./images/Trex.jpg";
+import pic4 from "./images/energy.jpg";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,17 +19,17 @@ root.render(
       <div>
         <Article
           author="Roeth"
-          title="Wario found dead"
+          title="Wario Found Dead"
           Image={pic1}
           alt="his crimes"
-          disc="Today, a man by the Name of Wario(34 M) founder of Wario Tax LLC. Inc. was found dead. officals have declared it was a heart attack."
+          disc=" Wario(53) founder of Wario Tax LLC. Inc. was found dead last night."
         />
         <Article
           author="V. Sauce"
-          title="Are People Getting Hotter?"
+          title="How can you help the Climate?"
           Image={pic2}
           alt="his crimes"
-          disc="No :("
+          disc="You can't :)"
         />
         <Article
           author="E-rex"
@@ -38,29 +39,25 @@ root.render(
           disc="In 2029 a team located in South America brought the Mammoth back."
         />
         <Article
-          author="Xander Mooney"
-          title="Is Anmol Going To Far?"
-          Image={pic1}
+          author="Joe Climate"
+          title="Nuclear Energy and You"
+          Image={pic4}
           alt="his crimes"
-          disc="In 2023 he did this but today?"
+          disc="Nuclear energy is one of the most clean energy sources our society uses."
         />
       </div>
       <div className="opinion-articles">
         <div>
-          <Opinion author="Horge" title="The climate is overrated" />
-          <Opinion author="Mister White" title="Should drugs be legalized?" />
+          <Opinion author="Nocli Mate" title="The Climate is Doomed" />
+          <Opinion author="Fingle Berry JR." title="Recycling Has Failed" />
+          <Opinion author="Ms.Sun" title="Solar power is very cool" />
           <Opinion
-            author="Gru"
-            title="Why privatization of the moon will cure cancer"
-          />
-          <Opinion
-            author="Crouton"
-            title="Joe Climate is a criminal and should be deplatformed"
+            author="Procli Mate"
+            title="The Climate can Still be Saved"
           />
         </div>
-        
+        <Advertisement />
       </div>
-      <Advertisement />
     </div>
   </>
 );

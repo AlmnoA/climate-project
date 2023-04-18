@@ -13,6 +13,8 @@ body {
   background-color: rgb(47, 43, 66);
   width: 700px;
   text-align: center;
+  border: solid 2px black;
+  margin-bottom: 1rem;
 }
 .title h1 {
   font-size: 5rem;
@@ -38,6 +40,7 @@ body {
 }
 .article-wrapper:hover {
   background-color: rgb(237, 243, 248);
+  cursor: pointer;
 }
 .article-wrapper img {
   overflow: hidden;
@@ -56,7 +59,7 @@ body {
   font-style: italic;
 }
 .article-wrapper div p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .main-grid {
   display: grid;
@@ -69,9 +72,12 @@ body {
   border-radius: 1rem;
   padding-left: 1rem;
   padding-right: 0.7rem;
-  width: 100%;
+  width: 90%;
   height: 80px;
   margin-left: 0.25rem;
+}
+.opinion-article:hover{
+  cursor: pointer;
 }
 .opinion-article h1 {
   font-size: 25px;
@@ -86,23 +92,18 @@ body {
   font-style: italic;
 }
 
-.Ad{
-background-image: url('./images/LDF-ComicSans/comic\ sans.png');
-background-repeat: no-repeat; 
-background-size: cover; 
-height: 170px;
-width: 300px;
-overflow:hidden;
-margin: auto;
-margin-top: 1rem;
+.ad-deco{
+  z-index: 10;
+  height: 300px;
+  width: 400px;
+  background-image: url(./images/LDF-ComicSans/comic\ sans.png);
+  background-repeat: no-repeat;
+  margin: 10%;
 }
-.Ad p{
-  text-align: right;
-text-decoration-line: underline overline;
-margin-right: 2px;
-margin-top: 5px;
+.ad-deco img{
+  height: 15px;
+  height: 30px;
 }
-.Ad p span{
-  background-color: white;
-
+.ad-deco img:hover{
+cursor: pointer;
 }

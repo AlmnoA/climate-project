@@ -2,9 +2,13 @@
   font-family: "LDF-ComicSsans";
   src: url(/src/images/LDF-ComicSans/LDFComicSans.ttf);
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 body {
-  background-image: url(/src/images/meraxes-credit-carlos-papolio_web.jpg);
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-image: url(/src/images/meraxes-credit-carlos-papolio_web.jpg);
   background-size: cover;
   font-family: "LDF-ComicSsans";
 }
@@ -76,7 +80,7 @@ body {
   height: 80px;
   margin-left: 0.25rem;
 }
-.opinion-article:hover{
+.opinion-article:hover {
   cursor: pointer;
 }
 .opinion-article h1 {
@@ -92,7 +96,7 @@ body {
   font-style: italic;
 }
 
-.ad-deco{
+.ad-deco {
   z-index: 10;
   height: 300px;
   width: 400px;
@@ -100,10 +104,25 @@ body {
   background-repeat: no-repeat;
   margin: 10%;
 }
-.ad-deco img{
+.ad-deco img {
   height: 15px;
   height: 30px;
 }
-.ad-deco img:hover{
-cursor: pointer;
+.ad-deco img:hover {
+  cursor: pointer;
+}
+.navBar {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.navBar p {
+  margin: 1rem;
+}
+.navBar img{
+  height: 32px;
+}
+.navBar img:hover{
+  filter:sepia(100);
+  transition: 20s;
 }

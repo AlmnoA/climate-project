@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Title from "./Components/Nav";
 import Article from "./Components/Articles";
 import Opinion from "./Components/Opinion";
 import Advertisement from "./Components/ad";
+
 import "./style.css";
 
 import pic1 from "./images/A091-funerals-death-care-sustainability-scaled.jpg";
@@ -16,7 +19,7 @@ export default function Home(){
     <Title />
     <div className="main-grid">
       <div>
-        <div>
+        <Link to='/Article'>
         <Article
           author="Roeth"
           title="Wario Found Dead"
@@ -24,8 +27,8 @@ export default function Home(){
           alt="his crimes"
           disc=" Wario(53) founder of Wario Tax LLC. Inc. was found dead last night."
         />
-        </div>
-        <div>
+        </Link>
+        <Link >
         <Article
           author="V. Sauce"
           title="How can you help the Climate?"
@@ -33,8 +36,8 @@ export default function Home(){
           alt="his crimes"
           disc="You can't :)"
         />
-        </div>
-        <div>
+        </Link>
+        <Link>
         <Article
           author="E-rex"
           title="How Bringing Back Dinosaurs Fixed the Climate Crisis: A Retrospective"
@@ -42,8 +45,8 @@ export default function Home(){
           alt="Famous T-rex Martha"
           disc="In 2029 a team located in South America brought the Mammoth back."
         />
-        </div>
-        <div>
+        </Link>
+        <Link>
         <Article
           author="Joe Climate"
           title="Nuclear Energy and You"
@@ -51,7 +54,7 @@ export default function Home(){
           alt="his crimes"
           disc="Nuclear energy is one of the most clean energy sources our society uses."
         />
-        </div>
+        </Link>
       </div>
       <div className="opinion-articles">
         <div>
@@ -62,6 +65,7 @@ export default function Home(){
             author="Procli Mate"
             title="The Climate can Still be Saved"
           />
+          <Opinion author="The Ocean" title="Desalination is not a solution to water scarcity " />
         </div>
         <Advertisement />
       </div>

@@ -1,14 +1,14 @@
 @font-face {
   font-family: "LDF-ComicSsans";
-  src: url(/src/images/LDF-ComicSans/LDFComicSans.ttf);
+  src: url(./images/LDF-ComicSans/LDFComicSans.ttf);
 }
 a {
   text-decoration: none;
   color: black;
 }
 body {
-    background-repeat: no-repeat;
-    background-image: url(/src/images/meraxes-credit-carlos-papolio_web.jpg);
+
+    background-image: url(./images/meraxes-credit-carlos-papolio_web.jpg);
   background-size: cover;
   font-family: "LDF-ComicSsans";
 }
@@ -23,6 +23,7 @@ body {
 .title h1 {
   font-size: 5rem;
   margin-bottom: 0rem;
+ box-shadow: 10px 5px 100px red;
 }
 .title h2 {
   margin-top: 0rem;
@@ -121,6 +122,8 @@ body {
 }
 .navBar img{
   height: 32px;
+  position: absolute;
+  margin-top: 3rem;
 }
 .navBar img:hover{
   filter:sepia(100);

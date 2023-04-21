@@ -129,3 +129,22 @@ body {
   filter:sepia(100);
   transition: 20s;
 }
+.Article-Itself{
+justify-content: center;
+align-items: center;
+}
+.Article-Itself h1{
+text-align: center;
+font-size: 8rem;
+margin: 0;
+
+}
+.Article-Itself img{
+  width: 1200px;
+  margin: auto;
+}
+.Article-Itself p{
+  background-color: white;
+  font-size: 2rem;
+max-width: 1200px;
+}

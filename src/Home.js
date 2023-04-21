@@ -19,7 +19,7 @@ export default function Home(){
     <Title />
     <div className="main-grid">
       <div>
-        <Link to='/Article'>
+        <Link to='/Wario'>
         <Article
           author="Roeth"
           title="Wario Found Dead"

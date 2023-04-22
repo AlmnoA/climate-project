@@ -28,7 +28,7 @@ export default function Home(){
           disc=" Wario(53) founder of Wario Tax LLC. Inc. was found dead last night."
         />
         </Link>
-        <Link >
+        <Link to='/HelpClimate'>
         <Article
           author="V. Sauce"
           title="How can you help the Climate?"

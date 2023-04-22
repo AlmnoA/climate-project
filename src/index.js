@@ -3,7 +3,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Layout from "./Layout";
-import Wario from "./FullArticle";
+import Wario from "./wario";
+import HelpClimate from "./Helpclimate";
 export default function App() {
   return (
     <BrowserRouter>
@@ -11,8 +12,8 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="Wario" element={<Wario/>}/>
-          {/* <Route path="HelpClimate" element={<Articles/>}/>
-          <Route path="Dinosaurs" element={<Articles/>}/>
+          { <Route path="HelpClimate" element={<HelpClimate/>}/>
+          /*<Route path="Dinosaurs" element={<Articles/>}/>
           <Route path="Nuclear" element={<Articles/>}/>
           <Route path="Doomed" element={<Articles/>}/>
           <Route path="Recycle" element={<Articles/>}/>

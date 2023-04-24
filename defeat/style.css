@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "LDF-ComicSsans";
+    src: url(/images/LDF-ComicSans/LDFComicSans.ttf);
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  body {
+  
+      background-image: url(/images/meraxes-credit-carlos-papolio_web.jpg);
+    background-size: cover;
+    font-family: "LDF-ComicSsans";
+  }
+  .title {
+    margin: auto;
+    background-color: rgb(47, 43, 66);
+    width: 700px;
+    text-align: center;
+    border: solid 2px black;
+    margin-bottom: 1rem;
+  }
+  .title h1 {
+    font-size: 5rem;
+    margin-bottom: 0rem;
+   box-shadow: 10px 5px 100px red;
+  }
+  .title h2 {
+    margin-top: 0rem;
+    font-size: 2.5rem;
+  }
+  .title h2 span {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .article-wrapper {
+    background-color: white;
+    background-image: url("./images/grunge-vintage-old-paper-background_1373-431.jpeg");
+    border-radius: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-bottom: 0.5rem;
+    transition: 2s;
+  }
+  .article-wrapper:hover {
+    background-color: rgb(237, 243, 248);
+    cursor: pointer;
+  }
+  .article-wrapper img {
+    overflow: hidden;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+  }
+  .article-wrapper div h1 {
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 2rem;
+  }
+  .article-wrapper div h2 span {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+  }
+  .article-wrapper div p {
+    font-size: 1.5rem;
+  }
+  .main-grid {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    background-color: white;
+    border-radius: 3rem;
+  }
+  .opinion-article {
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 0.7rem;
+    width: 90%;
+    height: 80px;
+    margin-left: 0.25rem;
+  }
+  .opinion-article:hover {
+    cursor: pointer;
+  }
+  .opinion-article h1 {
+    font-size: 25px;
+    margin-bottom: 0rem;
+    text-align: center;
+  }
+  .opinion-article h2 {
+    font-size: 20px;
+    text-align: right;
+    margin-top: 0rem;
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .ad-deco {
+    z-index: 10;
+    height: 300px;
+    width: 400px;
+    background-image: url(./images/LDF-ComicSans/comic\ sans.png);
+    background-repeat: no-repeat;
+    margin: 10%;
+  }
+  .ad-deco img {
+    height: 15px;
+    height: 30px;
+  }
+  .ad-deco img:hover {
+    cursor: pointer;
+  }
+  .navBar {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .navBar p {
+    margin: 1rem;
+  }
+  .navBar img{
+    height: 32px;
+    position: absolute;
+    margin-top: 3rem;
+  }
+  .navBar img:hover{
+    filter:sepia(100);
+    transition: 20s;
+  }
+  .Article-Itself{
+  justify-content: center;
+  align-items: center;
+  }
+  .Article-Itself h1{
+  text-align: center;
+  font-size: 8rem;
+  margin: 0;
+  
+  }
+  .Article-Itself img{
+    width: 1200px;
+    margin: auto;
+  }
+  .Article-Itself p{
+    background-color: white;
+    font-size: 2rem;
+  max-width: 1200px;
+  }
+  .disabled{
+    display: none;
+  }

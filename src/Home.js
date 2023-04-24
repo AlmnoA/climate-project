@@ -14,6 +14,10 @@ import pic3 from "./images/Trex.jpg";
 import pic4 from "./images/energy.jpg";
 
 export default function Home(){
+  window.resize = function(){
+    console.log("shit");}
+let width = window.innerWidth;
+let height = window.innerHeight;
     return(
 <>
     <Title />
